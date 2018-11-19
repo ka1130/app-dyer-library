@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://ka1130.github.io/AppDyer"
+    "url": "https://github.com/ka1130/app-dyer-library"
   },
   "eslintConfig": {
     "extends": "react-app"
