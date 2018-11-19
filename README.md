@@ -1,6 +1,6 @@
-# simple-component-library
+# app-dyer-library
 
-A library of React components created using `create-react-app`.
+This is a library component created from [app-dyer autosuggestion project](https://github.com/ka1130/AppDyer).
 
 ## Installation
 
