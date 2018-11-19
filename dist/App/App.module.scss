@@ -1,0 +1,67 @@
+.app {
+  text-align: center;
+  height: 100vh;
+  font-family: sans-serif;
+  h3 {
+    margin: 0;
+    padding: 2rem;
+  }
+}
+
+.colorPickerForm {
+  width: 25rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.colorInput,
+.submitColor {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.colorInput {
+  height: 1rem;
+  padding: 0.5rem;
+}
+
+.submitColor {
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: beige;
+  }
+}
+
+.suggestionList {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 10rem;
+  padding: 0;
+  li {
+    padding: 0.5rem;
+    &:not(:last-of-type) {
+      border-bottom: 1px solid #999;
+    }
+  }
+}
+
+.suggestionActive,
+.suggestionList li:hover {
+  background-color: #8f0024;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
